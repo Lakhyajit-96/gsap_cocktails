@@ -62,6 +62,7 @@ const Hero = () => {
                 currentTime: videoRef.current.duration
             })
         }
+
     }, []);
 
     return (
@@ -86,7 +87,7 @@ const Hero = () => {
                         <div className="space-y-5 hidden md:block">
                             <p>Cool. Crisp. Classic.</p>
                             <p className="subtitle">
-                             Sip the Spirit <br /> of Summer
+                                Sip the Spirit <br /> of Summer
                             </p>
                         </div>
 
